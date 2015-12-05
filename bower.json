@@ -1,0 +1,33 @@
+{
+  "name": "kreaktiv-muenster.de",
+  "version": "1.0.0",
+  "homepage": "https://www.kreaktiv-muenster.de",
+  "authors": [
+    "mark-mit-k <warneke.mark@gmail.com>"
+  ],
+  "description": "Homepage der studentischen Unternehmensberatung KREAKTIV e.V. Münster",
+  "main": "index.html",
+  "keywords": [
+    "Homepage",
+    "Website",
+    "Studentische",
+    "Unternehmensberatung",
+    "Unternehmensberatung",
+    "Kreaktiv",
+    "KREAKTIV",
+    "e.V."
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "bootstrap": "~3.3.6",
+    "grunt": "~0.4.5"
+  }
+}
