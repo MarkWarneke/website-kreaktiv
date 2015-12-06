@@ -64,6 +64,22 @@ module.exports = function(grunt) {
      }]
    },
 
+   watch: {
+   	files: 'src/css/*.sass',
+	tasks: ['css']
+   },
+
+   browserSync: {
+    	bsFiles: {
+         src : 'build/css/*.css'
+       },
+       options: {
+	       server: {
+		       baseDir: "./"
+	       }
+	}
+    },
+
    serve: {
     options: {
         port: 9000
@@ -78,6 +94,7 @@ module.exports = function(grunt) {
   //http://blog.grayghostvisuals.com/grunt/image-optimization/
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-browser-sync');
 
   // Default task(s).
   grunt.registerTask('default', ['uglify', 'sass']);
