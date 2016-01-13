@@ -1,0 +1,37 @@
+/*
+Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.
+        on line 13 of src/css/style.sass
+
+8:     color: rgb(52, 52, 51);
+9:     font-family: arial;
+10: }
+11: 
+12: p {
+13:   font-weight: normal;
+14: }
+15: 
+16: h1, h2 {
+17:   text-transform: uppercase;
+18: }
+
+Backtrace:
+src/css/style.sass:13
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/engine.rb:483:in `block in tabulate'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/engine.rb:441:in `each'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/engine.rb:441:in `each_with_index'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/engine.rb:441:in `tabulate'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/engine.rb:406:in `_to_tree'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:412:in `run'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/exec/base.rb:52:in `parse'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/lib/sass/exec/base.rb:19:in `parse!'
+/Users/mark/.rvm/gems/ruby-2.1.2/gems/sass-3.4.19/bin/sass:13:in `<top (required)>'
+/Users/mark/.rbenv/versions/2.1.3/bin/sass:23:in `load'
+/Users/mark/.rbenv/versions/2.1.3/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 2 spaces were used for indentation, but the rest of the document was indented using 4 spaces.\A         on line 13 of src/css/style.sass\A \A 8:     color: rgb(52, 52, 51);\A 9:     font-family: arial;\A 10: }\A 11: \A 12: p {\A 13:   font-weight: normal;\A 14: }\A 15: \A 16: h1, h2 {\A 17:   text-transform: uppercase;\A 18: }"; }

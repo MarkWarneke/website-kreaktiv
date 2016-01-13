@@ -4,10 +4,9 @@
 /* Carousel base class */
 #smallCarousel  {
   height: 22%;
-  bottom: 20%;
+  bottom: 30%;
   width: 70%;
   position: absolute;
-
 }
 
 #smallCarousel > .carousel-inner{

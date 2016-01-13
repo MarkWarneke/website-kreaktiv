@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Kreaktiv Münster - Studentische Unternehmensberatung</title>
+    <title>KREAKTIV e.V. Münster - Studentische Unternehmensberatung</title>
 
     <!-- Bootstrap -->
     <link href="lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
     <!-- Stylesheet -->
-    <link href="stylesheets/style.css" rel="stylesheet">
-    <link href="stylesheets/carousel.css" rel="stylesheet">
+    <link href="./src/css/style.css" rel="stylesheet">
+    <link href="./src/css/carousel.css" rel="stylesheet">
 
     <!-- jQuery (necessary for Bootstraps JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -47,13 +47,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <li class="page-scroll"><a class="navbar-brand page-scroll" href="#home"></a></li>
+                <li class="page-scroll"><a class="navbar-brand page-scroll hidden-sm" href="#home"></a></li>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="page-scroll"><a href="#unternehmen">Unternehmen</a></li>
                     <li class="page-scroll"><a  href="#about">Über uns</a></li>
                     <li class="page-scroll"><a  href="#students">Studenten</a></li>
+                    <li class="page-scroll"><a  href="#kuratoren">Kuratoren</a></li>
                     <li class="page-scroll"><a  href="#vorstand">Kontakt</a></li>
                 </ul>
             </div>
@@ -68,7 +69,7 @@
           <div class="item active">
               <div class="carousel-caption">
                 <h1 class="hidden-xs hidden-s">Kreaktive Ideen für Sie</h1>
-                <img src="images/separator_w.png" class="separator hidden-xs hidden-s hidden-md">
+                <img src="./src/images/separator_w.png" class="separator hidden-xs hidden-s hidden-md">
                 <p>
                   Ob Designkonzept, Kostenplanerstellung oder Implementierung eines ERP-Systems: Wir sind gerne mit dabei.
                   <br>
@@ -81,7 +82,7 @@
           <div class="item">
               <div class="carousel-caption">
                 <h1 class="hidden-xs hidden-s">Studentische Unternehmensberatung</h1>
-                <img src="images/separator_w.png" class="separator hidden-xs hidden-s hidden-md">
+                <img src="./src/images/separator_w.png" class="separator hidden-xs hidden-s hidden-md">
                 <p>
                   Das Konzept der studentischen Unternehmensberatung ist in Deutschland noch eher unbekannt - zu unrecht finden wir!
                   <br>
@@ -157,6 +158,27 @@
       </script>
     </section>
 
+    <div class="modal fade" id="ArlinghausModal">
+      <script>
+        $("#ArlinghausModal").load("parts/modals/arlinghaus_modal.html");
+      </script>
+    </div><!-- /.modal -->
+
+
+    <section id="kuratoren" class="kuratoren-section">
+      <script>
+        $("#kuratoren").load("parts/kuratoren.html");
+      </script>
+    </section>
+
+
+
+    <section id="bewerbung" class="background-section">
+      <script>
+        $("#bewerbung").load("parts/bewerbung.html");
+      </script>
+    </section>
+
     <!-- Modal -->
     <div class="modal fade" id="bewerbungsModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <script>
@@ -227,7 +249,7 @@
           <strong>1. Vositzender</strong><br>
           Markus Töpfer( V.i.S.d.P.)<br>
           <br>
-          <abbr title="mobile"><i class="fa fa-mobile"></i>  </abbr>  +49 (0) 170 3459758<br>
+          <abbr title="mobile"><i class="fa fa-mobile"></i>  </abbr>  +49 (0) 160 707 86 5<br>
           <abbr title="email"><i class="fa fa-envelope-o"></i>  </abbr> <a href="mailto:m.toepfer@kreaktiv-muenster.de<">m.toepfer@kreaktiv-muenster.de</a><br>
         </address>
       </div>
@@ -258,7 +280,7 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="lib/jquery.easing/js/jquery.easing.min.js"></script>
-    <script src="javascripts/scrollspy.js"></script>
-    <script src="javascripts/js.js"></script>
+    <script src="./src/js/scrollspy.js"></script>
+    <script src="./src/js/js.js"></script>
   </body>
 </html>

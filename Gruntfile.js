@@ -41,7 +41,7 @@ module.exports = function(grunt) {
             // Set to true to enable the following options…
             expand: true,
             // cwd is 'current working directory'
-            cwd: 'src/img/',
+            cwd: './src/img/',
             src: ['**/*.jpg'],
             // Could also match cwd. i.e. project-directory/img/
             dest: 'build/img/',
@@ -50,19 +50,20 @@ module.exports = function(grunt) {
         ]
       }
      },
-
+sass: {
    dist: {                            // Target
      options: {                       // Target options
        style: 'expanded'
      },
      files: [{
        expand: true,
-       cwd: 'src/css',
+       cwd: './src/css/',
        src: ['*.sass'],
-       dest: 'build/css/',
+       dest: './build/css/',
        ext: '.css'
      }]
-   },
+   }
+},
 
    watch: {
    	files: 'src/css/*.sass',
