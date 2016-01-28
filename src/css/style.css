@@ -11,6 +11,7 @@ body {
 
 p {
   font-weight: normal;
+  
 }
 
 h1, h2 {
@@ -38,7 +39,7 @@ h3 {
   width: 250px;
   overflow: hidden;
   position: relative;
-  background: url(../images/navi_logo.png) no-repeat center;
+  background: url(./img/navi_logo.png) no-repeat center;
 }
 
 .navbar-brand:hover {
@@ -84,7 +85,7 @@ h3 {
     min-height: 100%;
     overflow: hidden;
     position: relative;
-    background: url(../images/home_background2.jpg) no-repeat center;
+    background: url(./img/home_background2.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     color: white;
@@ -97,7 +98,7 @@ h3 {
     min-height: 100%;
     width: 100%;
     overflow: hidden;
-    background-image: url(../images/background.jpg);
+    background-image: url(./img/background.jpg);
     background-repeat: repeat;
     clip: rect(auto auto auto -700px);
     position: relative;
@@ -108,7 +109,7 @@ h3 {
     min-height: 100%;
     overflow: hidden;
     position: relative;
-    background: url(../images/ueberuns_background2.jpg) no-repeat center;
+    background: url(./img/ueberuns_background2.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     color: white;
@@ -120,7 +121,7 @@ h3 {
     min-height: 400px;
     overflow: hidden;
     position: relative;
-    background: url(../images/test.png) no-repeat center;
+    background: url(./img/test.png) no-repeat center;
     background-size: cover;
     text-align: center;
     color: white;
@@ -132,7 +133,7 @@ h3 {
     min-height: 200px;
     overflow: hidden;
     position: relative;
-    background: url(../images/poly.jpg) no-repeat center;
+    background: url(./img/poly.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     color: white;
@@ -144,7 +145,7 @@ h3 {
     min-height: 400px;
     overflow: hidden;
     position: relative;
-    background: url(../images/koop_background2.jpg) no-repeat center;
+    background: url(./img/koop_background2.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     color: white;
@@ -166,7 +167,7 @@ h3 {
     min-height: 400px;
     overflow: hidden;
     position: relative;
-    background: url(../images/kontakt_background2.jpg) no-repeat center;
+    background: url(./img/kontakt_background2.jpg) no-repeat center;
     background-size: cover;
     text-align: center;
     color: white;
@@ -253,11 +254,11 @@ footer {
 }
 
 .logo {
-  background: url(../images/logo.png) no-repeat center;
+  background: url(./img/logo.png) no-repeat center;
   width: 200px;
 }
 .logo:hover {
-  background: url(../images/navi_logo.png) no-repeat center;
+  background: url(./img/navi_logo.png) no-repeat center;
   width: 250px;
 }
 
@@ -265,13 +266,13 @@ footer {
   display: inline-block;
   width: 270px;
   height: 270px;
-  background: url(../images/referenzen_1pic.jpg) center no-repeat;
+  background: url(./img/referenzen_1pic.jpg) center no-repeat;
   background-size: 100% 100%;
   padding: 20px;
 }
 
 .reference:hover{
-  background: url(../images/referenzen_1pic_hover.jpg) center no-repeat;
+  background: url(./img/referenzen_1pic_hover.jpg) center no-repeat;
 }
 
 .background-section h2 {
@@ -302,7 +303,7 @@ footer {
   color: #333;
   padding: 0;
   margin: 0;
-  background: url(../images/unternehmen_icons.png) no-repeat 0 0;
+  background: url(./img/unternehmen_icons.png) no-repeat 0 0;
   border-radius: 5px;
 }
 
