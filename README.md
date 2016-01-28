@@ -1,6 +1,6 @@
 # kreaktiv_website
 Kreativs neue Webseite
-www.kreaktiv-muenster.de/prototyp
+www.kreaktiv-muenster.de
 
 ## todos
 * npm grunt und bootstrap initialisieren
