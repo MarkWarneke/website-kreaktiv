@@ -98,7 +98,7 @@ h3 {
     width: 100%;
     overflow: hidden;
     background-image: url(../images/background.jpg);
-    background-repeat: repeat-y;
+    background-repeat: repeat;
     clip: rect(auto auto auto -700px);
     position: relative;
 }
