@@ -14,7 +14,7 @@
 }
 /* Declare heights because of positioning of img element */
 #smallCarousel  .item {
-  height: 200px;
+  height: 400px;
   padding-top: 20px;
 }
 #smallCarousel .carousel-inner > .item > img {
