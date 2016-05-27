@@ -83,7 +83,7 @@ h3 {
 .home-section {
     height: auto !important;
     min-height: 100%;
-    overflow: hidden;
+    overflow: auto;
     position: relative;
     background: url(./img/home_background2.jpg) no-repeat center;
     background-size: cover;
